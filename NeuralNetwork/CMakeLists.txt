@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(SOURCE_FILES neuron.cpp neuron.cpp neuron.h link.cpp link.h feed_forward_neuron.cpp feed_forward_neuron.h)
+set(SOURCE_FILES neuron.cpp neuron.cpp neuron.h link.cpp link.h feed_forward_neuron.cpp feed_forward_neuron.h Network.cpp Network.h)
 add_library(NeuronNetwork SHARED ${SOURCE_FILES})

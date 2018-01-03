@@ -16,7 +16,7 @@ private:
 
 protected:
     int id;
-    std::vector<double> values;  // the weight on the link betweenn 0 and 1
+    std::vector<double> weights;  // the weight on the link betweenn 0 and 1
     std::shared_ptr<Neuron> in_node;
     std::shared_ptr<Neuron> out_node;
 public:
@@ -28,9 +28,9 @@ public:
 
     virtual void load(std::ifstream &in_file);
 
-    virtual double get_value(int id);
+    virtual double get_weight(int id);
 
-    virtual void set_value(double new_val, int id);
+    virtual void set_weight(double new_val, int id);
 
     virtual void set_in_node(const std::shared_ptr<Neuron> &node, int id);
 

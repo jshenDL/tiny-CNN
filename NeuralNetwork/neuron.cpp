@@ -2,6 +2,7 @@
 // Created by jiguangshen on 11/25/17.
 //
 
+#include <iomanip>
 #include "neuron.h"
 
 Neuron::Neuron(int w_size, int e_size) {
@@ -27,7 +28,17 @@ void Neuron::load_from_file(std::ifstream &infile) {
 }
 
 void Neuron::save_to_file(std::ofstream &outfile) {
-    //TODO
+    outfile << std::setw(4) << id << std::endl;
+    outfile << values.size();
+    for (auto val : values) {
+        outfile << " " << std::setprecision(18) << val;
+    }
+    outfile << std::endl;
+    outfile << errors.size();
+    for (auto err : errors) {
+        outfile << " " << std::setprecision(18) << err;
+    }
+
 }
 
 double Neuron::get_value(int index) {

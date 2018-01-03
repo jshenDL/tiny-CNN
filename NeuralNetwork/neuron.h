@@ -19,7 +19,7 @@ private:
 
 protected:
     int id;                              // neuron id number
-    std::vector<double> values;         // values stored in this node
+    std::vector<double> values;         // weights stored in this node
     std::vector<double> errors;           // errors stored in this node
 
     std::list<Link> in_links;            // input links to current neuron
