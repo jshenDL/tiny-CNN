@@ -6,8 +6,8 @@
 #include "neuron.h"
 
 Neuron::Neuron(int w_size, int e_size) {
-    values.resize(w_size);
-    errors.resize(e_size);
+    values.resize(static_cast<unsigned int>(w_size));
+    errors.resize(static_cast<unsigned int>(e_size));
     id = ++ticket;
 }
 

@@ -15,9 +15,9 @@ protected:
 public:
     Feed_Forward_Neuron(int v_size, int e_size);
 
-    virtual void run(int mode);
+    void run(int mode) override;
 
-    virtual std::string name();
+    std::string get_name() override;
 };
 
 #endif //TINY_CNN_FEED_FORWARD_NEURON_H
