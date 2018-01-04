@@ -6,8 +6,7 @@
 #define TINY_NN_LINK_H
 
 #include <vector>
-#include <boost/asio/detail/shared_ptr.hpp>
-
+#include <memory>
 class Neuron;
 
 class Link {

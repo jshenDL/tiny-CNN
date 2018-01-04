@@ -10,9 +10,7 @@
 #include <vector>
 #include <list>
 #include <fstream>
-#include <bits/unique_ptr.h>
-#include <boost/asio/detail/shared_ptr.hpp>
-
+#include <memory>
 class Neuron {
 private:
     static int ticket;
