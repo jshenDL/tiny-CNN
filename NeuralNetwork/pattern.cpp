@@ -85,7 +85,7 @@ void Pattern::save_to_file(std::ofstream &outfile) {
         outfile << pt << "\t";
     }
 
-    for (auto i = 0; i < out_set.size(); i++) {
+    for (unsigned int i = 0; i < out_set.size(); i++) {
         outfile << out_set[i];
         if (i != out_set.size() - 1) outfile << "\t";
     }
@@ -94,5 +94,9 @@ void Pattern::save_to_file(std::ofstream &outfile) {
 }
 
 void Pattern::load_from_file(std::ifstream &infile) {
+    //TODO
+}
+
+void Pattern::copy(Pattern &in) {
     //TODO
 }
