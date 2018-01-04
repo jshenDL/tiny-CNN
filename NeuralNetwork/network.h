@@ -2,8 +2,8 @@
 // Created by jiguangshen on 1/2/18.
 //
 
-#ifndef TINY_CNN_NETWORK_H
-#define TINY_CNN_NETWORK_H
+#ifndef TINY_NN_NETWORK_H
+#define TINY_NN_NETWORK_H
 
 #include "neuron.h"
 
@@ -33,4 +33,4 @@ public:
 };
 
 
-#endif //TINY_CNN_NETWORK_H
+#endif //TINY_NN_NETWORK_H

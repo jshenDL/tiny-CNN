@@ -2,8 +2,8 @@
 // Created by jiguangshen on 1/3/18.
 //
 
-#ifndef TINY_CNN_BIAS_NODE_H
-#define TINY_CNN_BIAS_NODE_H
+#ifndef TINY_NN_BIAS_NODE_H
+#define TINY_NN_BIAS_NODE_H
 
 
 #include "input_neuron.h"

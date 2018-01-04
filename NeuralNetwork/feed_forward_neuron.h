@@ -2,8 +2,8 @@
 // Created by jiguangshen on 1/2/18.
 //
 
-#ifndef TINY_CNN_FEED_FORWARD_NEURON_H
-#define TINY_CNN_FEED_FORWARD_NEURON_H
+#ifndef TINY_NN_FEED_FORWARD_NEURON_H
+#define TINY_NN_FEED_FORWARD_NEURON_H
 
 #include "neuron.h"
 
